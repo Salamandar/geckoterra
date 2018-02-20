@@ -139,7 +139,7 @@ U 1 1 5A8B4150
 P 6300 5200
 F 0 "K1" H 6630 5246 50  0000 L CNN
 F 1 "SANYOU_SRD_Form_A" H 6630 5155 50  0000 L CNN
-F 2 "Relays_THT:Relay_SPDT_SANYOU_SRD_Series_Form_A" H 7550 5150 50  0001 C CNN
+F 2 "Relays_THT:Relay_SPDT_OMRON-G5LE-1" H 7550 5150 50  0001 C CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6300 5200 50  0001 C CNN
 	1    6300 5200
 	1    0    0    -1  
@@ -353,7 +353,7 @@ U 1 1 5A8C730C
 P 8350 2600
 F 0 "Q2" H 8555 2646 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 8555 2555 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Horizontal" H 8550 2700 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 8550 2700 50  0001 C CNN
 F 3 "" H 8350 2600 50  0001 C CNN
 	1    8350 2600
 	1    0    0    -1  
@@ -451,12 +451,12 @@ F 3 "" H 2450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP?
+L Jumper_NC_Dual JP1
 U 1 1 5A8B9F9F
 P 8000 5550
-F 0 "JP?" H 8050 5450 50  0000 L CNN
+F 0 "JP1" H 8050 5450 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 8000 5650 50  0000 C BNN
-F 2 "" H 8000 5550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8000 5550 50  0001 C CNN
 F 3 "" H 8000 5550 50  0001 C CNN
 	1    8000 5550
 	1    0    0    -1  
@@ -468,12 +468,12 @@ Wire Wire Line
 Wire Wire Line
 	8000 5650 8000 5800
 $Comp
-L Jumper_NC_Dual JP?
+L Jumper_NC_Dual JP4
 U 1 1 5A8BAB57
 P 10200 5550
-F 0 "JP?" H 10250 5450 50  0000 L CNN
+F 0 "JP4" H 10250 5450 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 10200 5650 50  0000 C BNN
-F 2 "" H 10200 5550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10200 5550 50  0001 C CNN
 F 3 "" H 10200 5550 50  0001 C CNN
 	1    10200 5550
 	1    0    0    -1  
@@ -487,23 +487,23 @@ Wire Wire Line
 Wire Wire Line
 	10200 6200 8000 6200
 $Comp
-L Jumper_NC_Dual JP?
+L Jumper_NC_Dual JP2
 U 1 1 5A8BB6D2
 P 8950 5900
-F 0 "JP?" H 9000 5800 50  0000 L CNN
+F 0 "JP2" H 9000 5800 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 8950 6000 50  0000 C BNN
-F 2 "" H 8950 5900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8950 5900 50  0001 C CNN
 F 3 "" H 8950 5900 50  0001 C CNN
 	1    8950 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP?
+L Jumper_NC_Dual JP3
 U 1 1 5A8BB77C
 P 9500 5900
-F 0 "JP?" H 9550 5800 50  0000 L CNN
+F 0 "JP3" H 9550 5800 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 9500 6000 50  0000 C BNN
-F 2 "" H 9500 5900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9500 5900 50  0001 C CNN
 F 3 "" H 9500 5900 50  0001 C CNN
 	1    9500 5900
 	1    0    0    -1  
