@@ -392,19 +392,9 @@ F 3 "" H 2450 3250 50  0001 C CNN
 	1    2450 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L SW_DIP_x02 SW1
-U 1 1 5AB0DC76
-P 9450 6000
-F 0 "SW1" H 9450 6250 50  0000 C CNN
-F 1 "ShuntDimmer" H 9450 5850 50  0000 C CNN
-F 2 "" H 9450 6000 50  0001 C CNN
-F 3 "" H 9450 6000 50  0001 C CNN
-	1    9450 6000
-	1    0    0    -1  
-$EndComp
 Text Notes 6350 4750 0    60   ~ 0
 Active Low
+NoConn ~ 6600 2700
 Connection ~ 9150 5800
 Wire Wire Line
 	9150 2600 9150 5900
@@ -414,11 +404,11 @@ Wire Wire Line
 	10050 2400 10050 6000
 Connection ~ 10050 6000
 Wire Wire Line
-	9750 6000 10200 6000
+	9600 6000 10200 6000
 Wire Wire Line
-	9750 5550 9750 5900
+	9750 5900 9750 5550
 Wire Wire Line
-	10450 5550 9750 5550
+	9750 5550 10450 5550
 Connection ~ 9750 5800
 Wire Wire Line
 	5700 4900 5700 5050
@@ -481,8 +471,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 3350 1950 3350
 Wire Wire Line
-	9450 5700 8700 5700
-Wire Wire Line
 	8700 5700 8700 6000
 Wire Wire Line
 	7000 6200 10200 6200
@@ -499,9 +487,36 @@ Wire Wire Line
 Wire Wire Line
 	7500 5800 9150 5800
 Wire Wire Line
-	7000 6000 9150 6000
+	7000 6000 9300 6000
 Connection ~ 8700 6000
-NoConn ~ 6600 2700
 Wire Wire Line
 	4500 4900 6100 4900
+Wire Wire Line
+	9450 5700 8700 5700
+Wire Wire Line
+	9150 5900 9300 5900
+Wire Wire Line
+	9600 5900 9750 5900
+$Comp
+L R R5
+U 1 1 5AB1DAC4
+P 9450 5900
+F 0 "R5" V 9350 5900 50  0000 C CNN
+F 1 "Shunt" V 9450 5900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9380 5900 50  0001 C CNN
+F 3 "" H 9450 5900 50  0001 C CNN
+	1    9450 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5AB1DB09
+P 9450 6000
+F 0 "R6" V 9530 6000 50  0000 C CNN
+F 1 "Shunt" V 9450 6000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 9380 6000 50  0001 C CNN
+F 3 "" H 9450 6000 50  0001 C CNN
+	1    9450 6000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
