@@ -289,7 +289,7 @@ U 1 1 5A8BDB66
 P 7500 2300
 F 0 "C1" V 7755 2300 50  0000 C CNN
 F 1 "CP" V 7664 2300 50  0000 C CNN
-F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 7538 2150 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D18.0mm_P7.50mm" H 7538 2150 50  0001 C CNN
 F 3 "" H 7500 2300 50  0001 C CNN
 F 4 "https://www.rs-particuliers.com/WebCatalog/Condensateur_electrolytique_aluminium_100%C2%B5F___20__400V_dc__Traversant___105%C2%B0C__serie_RS__18_Dia_x_31mm-7112096.aspx" V 7500 2300 60  0001 C CNN "URL"
 F 5 "1.68" V 7500 2300 60  0001 C CNN "Q2"
