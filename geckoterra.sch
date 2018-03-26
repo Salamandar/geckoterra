@@ -159,7 +159,7 @@ U 1 1 5A8B49C2
 P 4800 5200
 F 0 "U1" H 4800 4900 50  0000 C CNN
 F 1 "PC817" H 4800 5000 50  0000 C CNN
-F 2 "Housings_DIP:DIP-4_W7.62mm" H 4600 5000 50  0001 L CIN
+F 2 "Housings_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads" H 4600 5000 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4800 5200 50  0001 L CNN
 F 4 "https://www.rs-particuliers.com/WebCatalog/Optocoupleur_Montage_en_surface__Lite_On__LTV_817S__Sortie_Transistor-6912182.aspx" H 4800 5200 60  0001 C CNN "URL"
 F 5 "2.4" H 4800 5200 60  0001 C CNN "Q10"
@@ -291,6 +291,8 @@ F 0 "C1" V 7755 2300 50  0000 C CNN
 F 1 "CP" V 7664 2300 50  0000 C CNN
 F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 7538 2150 50  0001 C CNN
 F 3 "" H 7500 2300 50  0001 C CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Condensateur_electrolytique_aluminium_100%C2%B5F___20__400V_dc__Traversant___105%C2%B0C__serie_RS__18_Dia_x_31mm-7112096.aspx" V 7500 2300 60  0001 C CNN "URL"
+F 5 "1.68" V 7500 2300 60  0001 C CNN "Q2"
 	1    7500 2300
 	0    -1   -1   0   
 $EndComp
@@ -311,8 +313,10 @@ U 1 1 5A8C31C6
 P 9450 2900
 F 0 "D4" H 9650 2750 50  0000 L CNN
 F 1 "D_Bridge_+A-A" H 9791 2855 50  0001 L CNN
-F 2 "Housings_DIP:DIP-4_W7.62mm_LongPads" H 9450 2900 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_Bridge_DFS" H 9450 2900 50  0001 C CNN
 F 3 "" H 9450 2900 50  0001 C CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Pont_redresseur_Monophase__15A_800V__DF_S__4_broches-7104594.aspx" H 9450 2900 60  0001 C CNN "URL"
+F 5 "3.7" H 9450 2900 60  0001 C CNN "Q10"
 	1    9450 2900
 	1    0    0    -1  
 $EndComp
