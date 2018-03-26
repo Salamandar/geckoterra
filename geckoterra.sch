@@ -161,6 +161,9 @@ F 0 "U1" H 4800 4900 50  0000 C CNN
 F 1 "PC817" H 4800 5000 50  0000 C CNN
 F 2 "Housings_DIP:DIP-4_W7.62mm" H 4600 5000 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4800 5200 50  0001 L CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Optocoupleur_Montage_en_surface__Lite_On__LTV_817S__Sortie_Transistor-6912182.aspx" H 4800 5200 60  0001 C CNN "URL"
+F 5 "2.4" H 4800 5200 60  0001 C CNN "Q10"
+F 6 "10" H 4800 5200 60  0001 C CNN "Quantite"
 	1    4800 5200
 	1    0    0    -1  
 $EndComp
@@ -183,6 +186,8 @@ F 0 "Q1" H 5791 5746 50  0000 L CNN
 F 1 "2N3904" H 5791 5655 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5800 5625 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5600 5700 50  0001 L CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Transistor__NPN__40_V__200_mA__TO_92__3_broches-7390442.aspx" H 5600 5700 60  0001 C CNN "URL"
+F 5 "1.9" H 5600 5700 60  0001 C CNN "Q10"
 	1    5600 5700
 	1    0    0    -1  
 $EndComp
@@ -317,7 +322,7 @@ U 1 1 5A8B478A
 P 6300 2800
 F 0 "U2" H 6300 3125 50  0000 C CNN
 F 1 "4N25" H 6300 3034 50  0000 C CNN
-F 2 "Housings_DIP:DIP-6_W7.62mm" H 6100 2600 50  0001 L CIN
+F 2 "Housings_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads" H 6100 2600 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6300 2800 50  0001 L CNN
 	1    6300 2800
 	1    0    0    -1  
