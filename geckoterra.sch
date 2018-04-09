@@ -280,6 +280,7 @@ F 0 "D3" V 7200 2829 50  0000 L CNN
 F 1 "D_Zener_ALT" V 7245 2829 50  0001 L CNN
 F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 7200 2750 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Zener_diode" H 7200 2750 50  0001 C CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Diode_Zener_ON_Semiconductor_1__Simple__15V_5_3_W_Traversant_2_Pin_DO_41-7743363.aspx" V 7200 2750 60  0001 C CNN "URL"
 	1    7200 2750
 	0    1    1    0   
 $EndComp
@@ -304,6 +305,7 @@ F 0 "D2" V 7200 2071 50  0000 R CNN
 F 1 "D_ALT" V 7155 2071 50  0001 R CNN
 F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 7200 2150 50  0001 C CNN
 F 3 "" H 7200 2150 50  0001 C CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Diode_traversante__1A__50V__1N4001_E3_54-6288931.aspx" V 7200 2150 60  0001 C CNN "URL"
 	1    7200 2150
 	0    -1   -1   0   
 $EndComp
@@ -328,6 +330,7 @@ F 0 "U2" H 6300 3125 50  0000 C CNN
 F 1 "4N25" H 6300 3034 50  0000 C CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads" H 6100 2600 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/83725/4n25.pdf" H 6300 2800 50  0001 L CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/Optocoupleur_Montage_en_surface__ON_Semiconductor__4N25SM__Sortie_Phototransistor-8051157.aspx" H 6300 2800 60  0001 C CNN "URL"
 	1    6300 2800
 	1    0    0    -1  
 $EndComp
@@ -339,6 +342,7 @@ F 0 "Q2" H 8555 2646 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 8555 2555 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 8550 2700 50  0001 C CNN
 F 3 "" H 8350 2600 50  0001 C CNN
+F 4 "https://www.rs-particuliers.com/WebCatalog/MOSFET__Canal_N__10_A_600_V_TO_220FP__3_broches-4857428.aspx" H 8350 2600 60  0001 C CNN "URL"
 	1    8350 2600
 	1    0    0    -1  
 $EndComp
