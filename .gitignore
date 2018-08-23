@@ -23,3 +23,7 @@ _autosave-*
 # Other
 sym-lib-table
 *-cache.lib
+
+# Generated files
+gerber/
+gerber.zip
