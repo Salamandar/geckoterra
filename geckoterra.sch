@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:geckoterra-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -194,7 +195,7 @@ F 4 "https://www.rs-particuliers.com/WebCatalog/Diode_traversante__1A__50V__1N40
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Bridge_+A-A D4
+L Device:D_Bridge_+-AA D4
 U 1 1 5A8C31C6
 P 9450 2900
 F 0 "D4" H 9650 2750 50  0000 L CNN
@@ -449,4 +450,21 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 6300 5200 50  0001
 	1    6300 5200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R7
+U 1 1 5BA28CDE
+P 7250 5800
+F 0 "R7" V 7150 5800 50  0000 C CNN
+F 1 "Shunt" V 7250 5800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7180 5800 50  0001 C CNN
+F 3 "" H 7250 5800 50  0001 C CNN
+	1    7250 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 5800 7100 5800
+Connection ~ 7000 5800
+Wire Wire Line
+	7400 5800 7500 5800
+Connection ~ 7500 5800
 $EndSCHEMATC
