@@ -365,14 +365,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 6200 10200 6200
 Wire Wire Line
-	7000 5800 7000 5500
-Wire Wire Line
-	7000 5500 6500 5500
-Wire Wire Line
-	7500 4800 7500 5800
-Wire Wire Line
-	7500 5800 9150 5800
-Wire Wire Line
 	7000 6000 8700 6000
 Connection ~ 8700 6000
 Wire Wire Line
@@ -435,10 +427,6 @@ Wire Wire Line
 	7200 2900 7750 2900
 Connection ~ 7200 2300
 Connection ~ 5700 5500
-Wire Wire Line
-	6600 4900 6600 4800
-Wire Wire Line
-	6600 4800 7500 4800
 $Comp
 L Relay:SANYOU_SRD_Form_C K1
 U 1 1 5B6FC851
@@ -453,18 +441,37 @@ $EndComp
 $Comp
 L Device:R R7
 U 1 1 5BA28CDE
-P 7250 5800
-F 0 "R7" V 7150 5800 50  0000 C CNN
-F 1 "Shunt" V 7250 5800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7180 5800 50  0001 C CNN
-F 3 "" H 7250 5800 50  0001 C CNN
-	1    7250 5800
+P 7600 5800
+F 0 "R7" V 7500 5800 50  0000 C CNN
+F 1 "Shunt" V 7600 5800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7530 5800 50  0001 C CNN
+F 3 "" H 7600 5800 50  0001 C CNN
+	1    7600 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5BA2F2DA
+P 7150 5800
+F 0 "F1" V 6953 5800 50  0000 C CNN
+F 1 "Fuse" V 7044 5800 50  0000 C CNN
+F 2 "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 7080 5800 50  0001 C CNN
+F 3 "~" H 7150 5800 50  0001 C CNN
+	1    7150 5800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7000 5800 7100 5800
-Connection ~ 7000 5800
+	7450 5500 7450 5800
 Wire Wire Line
-	7400 5800 7500 5800
-Connection ~ 7500 5800
+	6500 5500 7450 5500
+Wire Wire Line
+	7450 5800 7300 5800
+Connection ~ 7450 5800
+Wire Wire Line
+	7750 5800 9150 5800
+Connection ~ 7750 5800
+Wire Wire Line
+	6600 4900 7750 4900
+Wire Wire Line
+	7750 4900 7750 5800
 $EndSCHEMATC
